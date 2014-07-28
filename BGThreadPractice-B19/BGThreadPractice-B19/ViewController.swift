@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 		var createdQueue = NSOperationQueue() //This creates a OperationQueue.
 		createdQueue.addOperationWithBlock({ () -> Void in
 			//In here I make the URL call.
-			var url = NSURL(fileURLWithPath: "http://images2.fanpop.com/image/photos/9700000/Sad-Puppy-puppies-9726248-1600-1200.jpg")
+			var url = NSURL(string:"http://images2.fanpop.com/image/photos/9700000/Sad-Puppy-puppies-9726248-1600-1200.jpg")
 			
 			//Old School?
 //http://4.bp.blogspot.com/-a2_c22CQ2iA/UPXkuuVTUGI/AAAAAAAABvE/2o2OicjpF98/s1600/gecko3use.jpg
@@ -38,12 +38,19 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 	}
+	
+	override func viewWillAppear(animated: Bool) {
+		super.viewWillAppear(animated)
+		
+//		imageView.layer.cornerRadius = 0.5 * self.imageView.frame.width
+//		imageView.layer.borderColor = UIColor.lightGrayColor().CGColor
+//		imageView.layer.borderWidth = 2.0
+	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
 
 }
 

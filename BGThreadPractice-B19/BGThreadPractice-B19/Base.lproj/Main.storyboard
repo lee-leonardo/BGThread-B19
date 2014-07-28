@@ -20,7 +20,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rTa-Dc-1ha">
                                 <rect key="frame" x="175" y="20" width="250" height="250"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="92Z-YM-DDd"/>
                                     <constraint firstAttribute="width" constant="250" id="OJt-t0-Kqy"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="fN0-ea-uAy"/>
                                     <constraint firstAttribute="width" secondItem="rTa-Dc-1ha" secondAttribute="height" multiplier="1:1" id="gZx-ti-VZa"/>
                                     <constraint firstAttribute="height" constant="250" id="uGI-zX-mwt"/>
                                 </constraints>
