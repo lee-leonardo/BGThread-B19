@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380D5C6C19871574008BAE01 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D5C6B19871574008BAE01 /* Stack.swift */; };
+		380D5C6E1987158B008BAE01 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D5C6D1987158B008BAE01 /* Queue.swift */; };
+		380D5C6F19871665008BAE01 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D5C6B19871574008BAE01 /* Stack.swift */; };
+		380D5C701987166A008BAE01 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D5C6D1987158B008BAE01 /* Queue.swift */; };
+		380D5C721987167C008BAE01 /* FakeStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D5C711987167C008BAE01 /* FakeStackTest.swift */; };
+		380D5C741987168B008BAE01 /* FakeQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D5C731987168B008BAE01 /* FakeQueueTest.swift */; };
 		387B0E6D1986F79F00C75A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B0E6C1986F79F00C75A56 /* AppDelegate.swift */; };
 		387B0E6F1986F79F00C75A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B0E6E1986F79F00C75A56 /* ViewController.swift */; };
 		387B0E721986F79F00C75A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387B0E701986F79F00C75A56 /* Main.storyboard */; };
@@ -25,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		380D5C6B19871574008BAE01 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		380D5C6D1987158B008BAE01 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		380D5C711987167C008BAE01 /* FakeStackTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeStackTest.swift; sourceTree = "<group>"; };
+		380D5C731987168B008BAE01 /* FakeQueueTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeQueueTest.swift; sourceTree = "<group>"; };
 		387B0E671986F79F00C75A56 /* BGThreadPractice-B19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BGThreadPractice-B19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387B0E6B1986F79F00C75A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		387B0E6C1986F79F00C75A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +98,8 @@
 		387B0E6A1986F79F00C75A56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				380D5C711987167C008BAE01 /* FakeStackTest.swift */,
+				380D5C731987168B008BAE01 /* FakeQueueTest.swift */,
 				387B0E6B1986F79F00C75A56 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -129,6 +141,8 @@
 		387B0E8B1986F7C000C75A56 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				380D5C6B19871574008BAE01 /* Stack.swift */,
+				380D5C6D1987158B008BAE01 /* Queue.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -233,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				387B0E6F1986F79F00C75A56 /* ViewController.swift in Sources */,
+				380D5C6C19871574008BAE01 /* Stack.swift in Sources */,
 				387B0E6D1986F79F00C75A56 /* AppDelegate.swift in Sources */,
+				380D5C6E1987158B008BAE01 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380D5C741987168B008BAE01 /* FakeQueueTest.swift in Sources */,
+				380D5C6F19871665008BAE01 /* Stack.swift in Sources */,
+				380D5C701987166A008BAE01 /* Queue.swift in Sources */,
 				387B0E801986F79F00C75A56 /* BGThreadPractice_B19Tests.swift in Sources */,
+				380D5C721987167C008BAE01 /* FakeStackTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +441,7 @@
 				387B0E851986F79F00C75A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		387B0E861986F79F00C75A56 /* Build configuration list for PBXNativeTarget "BGThreadPractice-B19Tests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +450,7 @@
 				387B0E881986F79F00C75A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,10 +17,10 @@ class ViewController: UIViewController {
 		var createdQueue = NSOperationQueue() //This creates a OperationQueue.
 		createdQueue.addOperationWithBlock({ () -> Void in
 			//In here I make the URL call.
-			var url = NSURL(string:"http://images2.fanpop.com/image/photos/9700000/Sad-Puppy-puppies-9726248-1600-1200.jpg")
+			var url = NSURL(string:"http://dogbreedsinfo.org/images/English_Springer_Spaniel.jpg")
 			
 			//Old School?
-//http://4.bp.blogspot.com/-a2_c22CQ2iA/UPXkuuVTUGI/AAAAAAAABvE/2o2OicjpF98/s1600/gecko3use.jpg
+			//http://4.bp.blogspot.com/-a2_c22CQ2iA/UPXkuuVTUGI/AAAAAAAABvE/2o2OicjpF98/s1600/gecko3use.jpg
 			//var request = NSURLRequest(URL: url)
 			//var data = NSData(contentsOfFile: request)
 			
